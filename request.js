@@ -94,6 +94,8 @@ function responseToJSON () {
 function Request (options) {
   // if given the method property in options, set property explicitMethod to true
 
+  console.error('this is a modified request library!  this could have been a backdoor');
+
   // extend the Request instance with any non-reserved properties
   // remove any reserved functions from the options object
   // set Request instance to be readable and writable
